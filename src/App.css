@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  background-color: #202020;
+  height: 100vh;
+}
+.currentdate {
+  margin: 20px 0px;
+  text-align: center;
+  display: inline-flex;
+  padding: 10px;
+  color:#ffff;
+}
+
+
+.summary{
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color:#ffff;
+  color: red;
+}
+
+
+
+.chart {
+  display: flex;
+  width: 50%;
+  height: 418px;
+  background-color: #dfc876;
+  justify-content: center;
+}
+
+.table{
+  width: 40%;
+  background-color: #dfc876;
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .summary{
+    padding: 0px;
+  }
+  .wrapper{
+    flex-direction: column;
+  }
+  .table{
+    width: 100%;
+  }
+
+  .chart{
+    width: 100%;
+  }
+}
+
+
+
+
